@@ -13,12 +13,12 @@ class TextDrawer:
 		for line in drawing:
 			print line
 
-	def splitLetter(letter):
-		return letter.split('\n')
+def splitLetter(letter):
+	return letter.split('\n')
 
 
-	def appendLetter(text, letter):
-		for i in xrange(len(text)):
-			text[i] += letter[i]
+def appendLetter(text, letter):
+	for i in xrange(len(text)):
+		text[i] += letter[i]
 
-		return text
+	return text
